@@ -22,3 +22,45 @@ body {
     max-width: 1024px;
     margin: 0 auto;
 }
+.container {
+    padding: 96px 0;
+}
+.purple {
+    color: #6415ff;
+}
+
+section {
+    padding: 0 32px;
+}
+main {
+    margin-bottom: 96px;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    display: flex;
+    padding-top: 32px;
+}
+.navigation__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px;
+}
+.navigation__logo--img {
+    width: 40px;
+    height: 40px;
+}
+.navigation__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+}
