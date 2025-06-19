@@ -73,6 +73,18 @@ Navigation Bar
 .navig__link {
     margin: 0 24px;
 }
+.navig__link--sign {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    background: #6415ff;
+    color: #ffff;
+    line-height: 1.5px;
+    border: none;
+    width: auto;
+    transition: all 350ms;
+}
 .navig__link--sign:after {
     content: "";
     width: 0;
