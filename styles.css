@@ -75,8 +75,6 @@ Navigation Bar
     border-bottom: 2px solid transparent;
     position: relative;
     transition: all 350ms;
-}
-,.navig__link {
     margin: 0 24px;
 }
 .navig__link::after {
